@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function ActivityList() {
+    // Genera una lista di attività permettendo di segnare ogni elemento come completato applicando una classe con stile testuale barrato quando clicchiamo sull'elemento in questione.
     const [toDoList, setToDoList] = useState([
         { id: 1, text: 'fare la spesa', isDone: true },
         { id: 2, text: 'portare fuori il cane', isDone: true },
