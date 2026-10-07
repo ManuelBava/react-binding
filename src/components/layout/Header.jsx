@@ -1,5 +1,9 @@
 export default function Header() {
     return (
-        <div>Header</div>
+        <header className="container text-center">
+            <h1>
+                React-Binding
+            </h1>
+        </header>
     )
 }
